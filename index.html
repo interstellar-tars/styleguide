@@ -2,7 +2,7 @@
     <head>
         <title>CodeWWW Styleguide</title>
         <link rel="Icon" href="https://image.cdn.hypecitymc.online/CODEWWWNEWLOGO.png">
-        <link rel="stylesheet" href="https://file.cdn.hypecitymc.online/styleguide-css-48h164gba.css">
+        <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Protest+Riot">
         <link rel="stylesheet"
@@ -32,6 +32,11 @@
             #Header-Container h2{
                 font-family: Yanone Kaffeesatz;
                 color: azure;
+            }
+            #Header-Container h1{
+                font-family: Yanone Kaffeesatz;
+                color: azure;
+                padding-top: 2vh;
             }
         </style>
     </head>
@@ -84,11 +89,16 @@
                     </div>
                     <div id="Header-Container">
                         <h1>Headers</h1>
+                        <h2>To use these headers, create a div with the header tag in it and include the given Div ID.</h2>
+                        <span id="warning-text">DO NOT USE THE CLASS TAG.</span>
                         <h2>Classic Header:</h2>
                         <div id="class-header">
-                            <header></header>
+                            <header><center><h1>Div ID: class-header</h1></center></header>
                         </div>
-
+                        <h2>Large Header:</h2>
+                        <div id="large-header">
+                            <header><center><h1>Div ID: large-header</h1></center></header>
+                        </div>
                         <h2>__________________________________________________________________________________</h2>
                     </div>
                     <br>
