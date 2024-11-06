@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot');
+body{
+    background-color: #757575;
+    color: #757575;
+}
+header{
+    color: #191919;
+    background-color: #191919;
+    width: 100%;
+    height: 8vh;
+}
+header img{
+    width: 20vh;
+    height: 6vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 1vh;
+    background-color: #191919;
+}
+#style-container{
+    background-color: #393B3D;
+    color: #393B3D;
+    width: 50%;
+    height: fit-content;
+ }
+#Colors-Container img{
+    width: 20vh;
+    height: 16vh;
+}
+#Colors-Container UsageBlock{
+    width: 25%;
+    height: fit-content;
+    background-color: #191919;
+    color: #191919;
+}
+#Header-Container class-header header{
+    width: 40%;
+    height: 6vh;
+    color: #191919;
+}
+#warning-text{
+    color: #E2231A;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#span warning-text{
+    color: #E2231A;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#warning-text span{
+    color: #E2231A;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#large-header header{
+    width: 100%;
+    height: 10vh;
+    color: #191919;
+}
+#Icon-Container img{
+    height: 16vh;
+    width: 16vh;
+}
+#alert-text{
+    color: #F68802;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#span alert-text{
+    color: #F68802;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#alert-text span{
+    color: #F68802;
+    font-family: Yanone Kaffeesatz;
+    font-size: xx-large;
+}
+#Text-Container code{
+    color: #F5F5F5;
+    background-color: #191919;
+}
+#Text-Container h1{
+    color: #F5F5F5;
+    font-family: Protest Riot;
+}
+#Text-Container h2{
+    color: #F5F5F5;
+    font-family: Protest Riot;
+    font-size: x-large;
+}
+#Text-Container h3{
+    color: #F5F5F5;
+    font-family: Yanone Kaffeesatz;
+    font-size: large;
+}
+#Text-Container code-container img{
+    width: 20vh;
+    height: 10vh;
+}
